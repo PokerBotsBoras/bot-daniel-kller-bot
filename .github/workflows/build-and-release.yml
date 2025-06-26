@@ -1,10 +1,7 @@
 name: Build and Release DLL
 
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - master
     tags:
       - "v*"
 
@@ -36,6 +33,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: output/bot.dll
+          files: output/*.dll
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
