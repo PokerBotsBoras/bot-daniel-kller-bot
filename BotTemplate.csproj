@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="PokerBots.Abstractions" Version="1.0.1" />
+    <PackageReference Include="PokerBots.Abstractions" Version="1.0.3" />
   </ItemGroup>
 </Project>
