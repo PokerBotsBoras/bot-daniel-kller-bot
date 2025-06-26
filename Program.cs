@@ -5,7 +5,7 @@ using PokerBots.Abstractions;
 
 class Program
 {
-    static IPokerBot CreateBot() => new BotTemplate(); // Replace with bot class
+    static IPokerBot CreateBot() => new DanielsBot(); // Replace with bot class
 
     static async Task Main()
     {
