@@ -5,7 +5,7 @@ public class BotTemplate : IPokerBot
 {
     private static readonly Random rng = new();
 
-    public string Name => "BotTemplate";
+    public string Name => "DanielsBo";
 
     // GetAction is called by the game runner, an you need to return what action the bot should take, based on the GameState
     public PokerAction GetAction(GameState state)
